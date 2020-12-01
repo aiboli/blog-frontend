@@ -38,5 +38,6 @@ export async function getStaticProps() {
   }
   return {
     props: { title, description, content }, // will be passed to the page component as props
+    revalidate: 1,
   }
 }
