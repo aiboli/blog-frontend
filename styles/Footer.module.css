@@ -1,0 +1,14 @@
+.footerContainer {
+    height: 6vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerText {
+    color: #ffce08;
+    flex: 1 1;
+}

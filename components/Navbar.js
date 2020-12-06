@@ -1,18 +1,20 @@
 import { Nav } from 'react-bootstrap';
+import styles from '../styles/Navbar.module.css';
 
 export default function Navbar() {
     return (
         <Nav
             activeKey="/"
+            className={styles.myNav}
         >
             <Nav.Item>
-                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/"><h5>Home</h5></Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="/blogs" eventKey="link-1">Blogs</Nav.Link>
+                <Nav.Link href="/blogs" eventKey="link-1"><h5>Blogs</h5></Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="/contact" eventKey="link-2">Contact</Nav.Link>
+                <Nav.Link href="/contact" eventKey="link-2"><h5>Contact</h5></Nav.Link>
             </Nav.Item>
         </Nav>
     )

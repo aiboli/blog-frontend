@@ -1,0 +1,20 @@
+.myNav {
+    background-color: #ffce08;
+    height: 4vh;
+}
+
+.myNav h5{
+    color: black;
+}
+
+.myNav div:hover {
+    background-color: black;
+}
+
+.myNav div:hover h5{
+    color: #ffce08;
+}
+
+/* .myNav h5:hover {
+    color: #ffce08;
+} */
