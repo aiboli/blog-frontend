@@ -48,10 +48,13 @@ export default function Article({ notFound, article }) {
 
 
 export async function getStaticPaths() {
+    const res = await fetch(`http://localhost:1337/articles`);
+    const data = await res.json();
+    const paths = data.map((post) => ({
+        params: { id: post.id + '' },
+    }));
     return {
-        paths: [
-            { params: { id: '*' } }
-        ],
+        paths,
         fallback: true
     };
 }
