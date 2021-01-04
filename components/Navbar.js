@@ -11,7 +11,7 @@ export default function Navbar() {
                 <Nav.Link href="/"><h5>Home</h5></Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="/blogs" eventKey="link-1"><h5>Blogs</h5></Nav.Link>
+                <Nav.Link href="/articles" eventKey="link-1"><h5>Articles</h5></Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link href="/contact" eventKey="link-2"><h5>Contact</h5></Nav.Link>

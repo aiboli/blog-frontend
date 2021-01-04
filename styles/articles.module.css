@@ -1,0 +1,28 @@
+.container {
+    min-height: 90vh;
+    padding: 0 0.5rem;
+    align-items: center;
+    /* border: #0070f3 1px solid; */
+  }
+  
+.main {
+    max-width: 800px;
+    min-height: 90vh;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    /* border: red 1px solid; */
+}
+
+.titleContainer {
+    padding: 1vh 0;
+    text-align: center;
+}
+
+.articleContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+  
