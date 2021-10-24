@@ -33,3 +33,13 @@ running command:
 ```
 pm2 start npm --name "blog-frontend" -- start
 ```
+
+## Debug on Azure
+if meet network/connection issue on VM, please check the /etc/resolv.conf
+
+make sure we have 
+```
+namespace 8.8.8.8
+namespace 8.8.4.4
+```
+in the file
