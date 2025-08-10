@@ -1,0 +1,58 @@
+.window {
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
+  background: #fff;
+  overflow: hidden;
+  max-width: 480px;
+  margin: 2rem auto;
+  border: 1px solid #222;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.window:hover {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+  transform: translateY(-4px) scale(1.02);
+}
+
+.topBar {
+  background: #222;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  padding: 0 0.7rem;
+  position: relative;
+}
+.windowButtons {
+  display: flex;
+  gap: 8px;
+}
+.button {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ffd600;
+  border: 1.5px solid #222;
+  display: inline-block;
+  margin-right: 2px;
+}
+.content {
+  padding: 1.2rem;
+  font-family: "Consolas", "Menlo", "Monaco", monospace;
+  font-size: 1rem;
+  color: #222;
+}
+
+.windowTitle {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #ffce08;
+  position: inherit;
+  left: 35%;
+  transform: translateX(-50%);
+}
+
+.windowTitle:hover {
+  background-color: #ffd600;
+  color: #222;
+  text-decoration: none;
+}
