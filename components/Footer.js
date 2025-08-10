@@ -6,7 +6,6 @@ export default function Footer() {
       <span className={styles.footerText}>
         © YMF. All rights reserved {new Date().getFullYear()} ⚠.
       </span>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
   );
 }

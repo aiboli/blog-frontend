@@ -22,14 +22,6 @@ export default function Home({ title, description, content }) {
             );
           })}
         </div>
-        <ins
-          class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-8073958171092439"
-          data-ad-slot="2040743276"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
       </div>
     </AppLayout>
   );
