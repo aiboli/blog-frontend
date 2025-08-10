@@ -1,0 +1,17 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  height: 500px;
+}
+.promptCard {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
+  transition: box-shadow 0.2s, transform 0.2s, z-index 0.2s;
+  opacity: 0.98;
+}
+.active {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+  transform: scale(1.04) translateY(-8px);
+  opacity: 1;
+  z-index: 10;
+}
