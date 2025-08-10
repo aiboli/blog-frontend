@@ -21,7 +21,7 @@ export default function AppLayout({ children }) {
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8073958171092439"
           crossorigin="anonymous"
         ></script>
-        <script
+        {/* <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-K9WQP5R2DB"
         ></script>
@@ -34,7 +34,7 @@ export default function AppLayout({ children }) {
               gtag('config', 'G-K9WQP5R2DB');
             `,
           }}
-        />
+        /> */}
         <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
