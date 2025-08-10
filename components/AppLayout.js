@@ -25,11 +25,16 @@ export default function AppLayout({ children }) {
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-K9WQP5R2DB"
         ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-K9WQP5R2DB');
-        </script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-K9WQP5R2DB');
+            `,
+          }}
+        />
         <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
